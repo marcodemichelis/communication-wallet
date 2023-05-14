@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig.json",
+    "compileOnSave": false,
+    "compilerOptions": {
+       "target": "ES2018",
+       "module": "ES2020",
+       "lib": [
+          "DOM",
+          "ES2018",
+          "DOM.Iterable",
+          "WebWorker"
+       ],
+       "declaration": true,
+       "declarationMap": true,
+       "sourceMap": true,
+       "importHelpers": false,
+       "strict": true,
+       "noImplicitAny": false,
+       "strictNullChecks": false,
+       "strictFunctionTypes": true,
+       "noImplicitThis": true,
+       "alwaysStrict": true,
+       "moduleResolution": "node",
+       "experimentalDecorators": true,
+       "composite": true,
+       "incremental": true,
+       "skipLibCheck": true,
+       "strictPropertyInitialization": false,
+       "noEmit": true
+    }
+ }
+ 
